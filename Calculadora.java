@@ -1,4 +1,4 @@
-// Versión 1.0 - Práctica de Entornos de Desarrollo
+// Versión 1.1 - Práctica de Entornos de Desarrollo
 import java.util.Scanner;
 
 public class Calculadora {
