@@ -8,7 +8,7 @@ public class Calculadora {
         try (Scanner scanner = new Scanner(System.in)) {
             double num1, num2, resultado;
             int operacion;
-            System.out.println("=== CALCULADORA BÁSICA EN JAVA ===");
+            System.out.println("=== CALCULADORA BÁSICA EN JAVA - Conflicto otra rama=== ");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
@@ -50,7 +50,10 @@ public class Calculadora {
                         resultado *= num1;
                     }
                     System.out.println(num1 + " elevado a " + num2 + " = " + resultado);
-                    break;
+                }
+                case 6 -> {
+                    resultado = 1;
+                    System.out.println(Math.sqrt(num1));
                 }
                 default -> System.out.println("Opción no válida.");
             }
