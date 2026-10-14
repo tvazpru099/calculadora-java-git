@@ -8,7 +8,7 @@ public class Calculadora {
         try (Scanner scanner = new Scanner(System.in)) {
             double num1, num2, resultado;
             int operacion;
-            System.out.println("=== CALCULADORA BÁSICA EN JAVA - Conflicto otra rama=== ");
+            System.out.println("=== CALCULADORA BÁSICA EN JAVA - Conflicto otra rama v1=== ");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
